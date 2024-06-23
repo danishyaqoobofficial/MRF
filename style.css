@@ -117,8 +117,8 @@ flex-direction: column;
     perspective: 250vw;
   }
   .book .pages {
-    width: 60vw;
-    height: 44vw;
+    /* width: 60vw;
+    height: 44vw; */
     position: relative;
     transform-style: preserve-3d;
     backface-visibility: hidden;
@@ -131,8 +131,10 @@ flex-direction: column;
     margin: 0;
     position: absolute;
     top: 0;
-    width: 30vw;
-    height: 44vw;
+    /* width: 30vw;
+    height: 44vw; */
+    /* height: 700px; */
+    width: 50%;
     transform-origin: 0 0;
     transition: transform 1.4s;
     backface-visibility: hidden;
